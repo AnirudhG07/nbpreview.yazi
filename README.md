@@ -5,11 +5,10 @@ View your Jupyter notebooks beautifully in the preview in Yazi.
 ## Requirements
 
 - [Yazi](https://github.com/sxyazi/yazi) version >=0.2.5
-- [nbpreview]
+- [nbpreview](https://github.com/paw-lu/nbpreview)
 
 ## Previews
-
-TODO
+<img width="1416" alt="image" src="https://github.com/AnirudhG07/nbpreview.yazi/assets/146579014/87535dc9-c45a-4eb7-a732-4384460b516d">
 
 ## Installation
 
@@ -35,11 +34,12 @@ prepend_previewers = [
 ## Configurations
 
 You can configure your preview by editing the `init.lua` file present in the plugin directory.
+<img width="724" alt="image" src="https://github.com/AnirudhG07/nbpreview.yazi/assets/146579014/2d362872-f12a-4d69-857b-d75a5990ee96">
 
-You can see the configurations provided using `nbpreview --help`.
-
+All the configurations provided using `nbpreview --help`.
 By default we have give you some of the flags which you can change according to your needs in the `init.lua` file.
-Please donot change the below options(unless you know what you are doing) -
+
+Please DONOT change the below options(unless you know what you are doing) -
 
 - `--nerd-font` - Yazi uses nerd-font.
 - \*`--decorated` - This enables the decorations you see in the preview.
@@ -66,3 +66,5 @@ You can Color customize your previews from the Color schemes and themes provided
 ```
 
 You can change the default give color scheme and theme to any you like.
+
+**NOTE:** The loading of `ipynb` might be slow currently. This maybe improved in future.

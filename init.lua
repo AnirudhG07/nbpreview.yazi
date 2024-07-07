@@ -14,7 +14,6 @@ function M:peek()
 			"--unicode",
 			"--color",
 			"--images",
-			"--decorated",
 
 			-- SPECIAL CUSTOMIZATIONS --
 			"--color-system=standard",

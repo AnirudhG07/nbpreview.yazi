@@ -34,7 +34,7 @@ prepend_previewers = [
 ## Configurations
 
 You can configure your preview by editing the `init.lua` file present in the plugin directory.
-<img width="724" alt="image" src="https://github.com/AnirudhG07/nbpreview.yazi/assets/146579014/2d362872-f12a-4d69-857b-d75a5990ee96">
+<img width="724" alt="image" src="https://github.com/AnirudhG07/nbpreview.yazi/assets/146579014/99405d1f-3de8-4beb-a581-4a41affe8e57">
 
 All the configurations provided using `nbpreview --help`.
 By default we have give you some of the flags which you can change according to your needs in the `init.lua` file.

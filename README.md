@@ -67,4 +67,6 @@ You can Color customize your previews from the Color schemes and themes provided
 
 You can change the default give color scheme and theme to any you like.
 
-**NOTE:** The loading of `ipynb` might be slow currently. This maybe improved in future.
+> [!Note]
+>
+>  The loading of `ipynb` might appear slow. This is due to the lag created by the command itself and not because of the plugin or yazi

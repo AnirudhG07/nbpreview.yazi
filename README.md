@@ -8,6 +8,7 @@ View your Jupyter notebooks beautifully in the preview in Yazi.
 - [nbpreview](https://github.com/paw-lu/nbpreview)
 
 ## Previews
+
 <img width="1416" alt="image" src="https://github.com/AnirudhG07/nbpreview.yazi/assets/146579014/87535dc9-c45a-4eb7-a732-4384460b516d">
 
 ## Installation
@@ -69,4 +70,8 @@ You can change the default give color scheme and theme to any you like.
 
 > [!Note]
 >
->  The loading of `ipynb` might appear slow. This is due to the lag created by the command itself and not because of the plugin or yazi
+> The loading of `ipynb` might appear slow. This is due to the lag created by the command itself and not because of the plugin or yazi
+
+## Explore Yazi
+
+Yazi is an amazing, blazing fast terminal file manager, with a variety of plugins, flavors and themes. Check them out at [awesome-yazi](https://github.com/AnirudhG07/awesome-yazi) and the official [yazi webpage](https://yazi-rs.github.io/).

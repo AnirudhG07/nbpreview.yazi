@@ -14,6 +14,8 @@ View your Jupyter notebooks beautifully in the preview in Yazi.
 ## Installation
 
 ```bash
+ya pack -a AnirudhG07/nbpreview
+
 ## For linux and MacOS
 git clone https://github.com/AnirudhG07/nbpreview.yazi.git ~/.config/yazi/plugins/nbpreview.yazi
 

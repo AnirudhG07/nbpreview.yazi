@@ -4,7 +4,7 @@ View your Jupyter notebooks beautifully in the preview in Yazi.
 
 ## Requirements
 
-- [Yazi](https://github.com/sxyazi/yazi) version >=0.2.5
+- [Yazi](https://github.com/sxyazi/yazi) version >=0.4
 - [nbpreview](https://github.com/paw-lu/nbpreview)
 
 ## Previews

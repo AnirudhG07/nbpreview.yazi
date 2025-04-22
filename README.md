@@ -4,7 +4,7 @@ View your Jupyter notebooks beautifully in the preview in Yazi.
 
 ## Requirements
 
-- [Yazi](https://github.com/sxyazi/yazi) version >=0.4
+- [Yazi](https://github.com/sxyazi/yazi) version >=25.4.8
 - [nbpreview](https://github.com/paw-lu/nbpreview)
 
 ## Previews
@@ -73,6 +73,18 @@ You can change the default give color scheme and theme to any you like.
 > [!Note]
 >
 > The loading of `ipynb` might appear slow. This is due to the lag created by the command itself and not because of the plugin or yazi
+
+## Using piper.yazi
+
+[piper.yazi](https://github.com/yazi-rs/plugins/tree/main/piper.yazi) is a general-purpose previewer - you can pass any shell command to piper and it will use the command's output as the preview content.
+
+To use `nbpreview` with piper, you can add this in your `yazi.toml` file:
+
+```toml
+[[plugin.prepend_previewers]]
+name = "*.ipynb"
+run  = 'piper -- nbpreview --no-paging --nerd-font --decorated --no-files --unicode --color --images --color-system=standard --theme=ansi_dark "$1"'
+```
 
 ## Explore Yazi
 

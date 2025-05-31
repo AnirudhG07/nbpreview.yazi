@@ -2,7 +2,7 @@ local M = {}
 
 function M:peek(job)
 	local child = Command("nbpreview")
-		:args({
+		:arg({
 			-- DO NOT CHANGE --
 			"--no-paging",
 			"--nerd-font",
